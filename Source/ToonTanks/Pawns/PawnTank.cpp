@@ -61,7 +61,7 @@ void APawnTank::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
     PlayerInputComponent->BindAxis("Turn", this, &APawnTank::CalculateRotateInput);
     PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &APawnTank::Fire);
 
-    PlayerInputComponent->BindAxis("Dip", IE_Pressed, this, &APawnTank::BeginDip);
+    //PlayerInputComponent->BindAxis("Dip", IE_Pressed, this, &APawnTank::BeginDip);
     //PlayerInputComponent->BindAxis("Dip", IE_Released, this, &APawnTank::LeaveDip);
     //PlayerInputComponent->BindAxis("Lift", IE_Pressed, this, &APawnTank::BeginLift);
     //PlayerInputComponent->BindAxis("Lift", IE_Released, this, &APawnTank::LeaveLift);

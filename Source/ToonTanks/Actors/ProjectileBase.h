@@ -62,6 +62,7 @@ public:
 	AProjectileBase();
 
 	//void IgnoreOwnerWhenMoving(AActor* MyOwner); // <----- my_code
+	//void IgnoreOwnerWhenMoving(AActor* MyOwner); // <----- my_code
 
 protected:
 	
