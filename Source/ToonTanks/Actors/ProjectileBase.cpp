@@ -58,12 +58,4 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 
 		Destroy();
 	}
-
-	
 }
-
-//void AProjectileBase::IgnoreOwnerWhenMoving(AActor* MyOwner) // <--- my_code
-//{
-//	UE_LOG(LogTemp, Warning, TEXT("Ignoring %s"), MyOwner->GetName()); // <--- my_code
-//	ProjectileMesh->IgnoreActorWhenMoving(MyOwner, true); // <--- my_code
-//}

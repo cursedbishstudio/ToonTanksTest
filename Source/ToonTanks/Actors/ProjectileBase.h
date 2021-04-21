@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "ProjectileBase.generated.h"
-//#include "Components/PrimitiveComponent.h"
 
 class UProjectileMovementComponent;
 UCLASS()
@@ -60,9 +59,6 @@ private:
 public:	
 	
 	AProjectileBase();
-
-	//void IgnoreOwnerWhenMoving(AActor* MyOwner); // <----- my_code
-	//void IgnoreOwnerWhenMoving(AActor* MyOwner); // <----- my_code
 
 protected:
 	

@@ -37,12 +37,6 @@ private:
 	void CalculateMoveInput(float Value);
 	void CalculateRotateInput(float Value);
 
-	void BeginDip(float Value);
-	void LeaveDip(float Value);
-
-	void BeginLift(float Value);
-	void LeaveLift(float Value);
-
 	void Move();
 	void Rotate();
 
